@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/sigin', (req, res) => {
+router.get('/users/sigin', (req, res) => {
     res.send('Ingresando a la app');
 
 });
 
-router.get('/sigout', (req, res) => {
+router.get('/users/sigout', (req, res) => {
     res.send('Formulario de Autenticacion');
 
 });
